@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EBEBEB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tudo {
+    /* border: 1px solid #000; */
+    width: 980px;
+    height: 100%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#topo {
+    border: 1px solid #000;
+    background-color: black;
+    height: 100px;
+    position: relative;
+}
+
+h1 {
+    font-size: 20px;
+    color: #1bb4e8;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+}
+
+#topo-titulo {
+    border: 1px solid #fff;
+    width: 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#topo-logo {
+    border: 1px solid #fff;
+    display: flex;
+    width: 200px;
+}
+
+#menu {
+    border: 1px solid white;
+    /* background-color: #1bb4e8; */
+    display: flex;
+    justify-content: space-around;
+    width: 650px;
+    position: absolute;
+    top: 40px;
+    left: 300px;
+}
+
+li {
+    list-style: none;
+    width: 140px;
+    display: inline-block;
+    text-align: center;
+}
+
+li.a-direita {
+    border-right: 1px solid white;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+#principal-imagem {
+    height: 495px;
+    background-image: url('imagens/barcoprincipal.jpg');
+}
+
+#principal-imagem-texto {
+    border: 1px solid #000;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 40%;
+}
+
+/* */
+
+#logomarca {
+    position: relative;
+    display: flex;
+}
+
+#empresa {
+    position: relative;
+    align-content: space-around;
+    margin-left: 10px;
+}
+
+#navbar-content {
+    background-color: #21272B;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+#barra-de-acesso {
+    position: relative;
+    align-content: end;
+}
+
+/* texto na imagem */
+
+#chamada {
+    position: absolute;
+    transform: translate(520px, -270px);
+    color: white;
+    text-align: center;
+    background-color: #1A3243;
+    padding: 30px;
+    width: 330px;
+}
+
+#chamada h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-wrap: balance;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+div#img-text-wrapper {
+    position: relative;
+    display: flex;
+}
+
+div#img-text-wrapper p {
+    margin-left: 10px;
+    font-size: 16px;
+    text-align: start;
+}
+
+div#img-text-wrapper span {
+    color: #C6B07F;
+}
+
+.text-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    margin: 10px;
+}
+
+/* as duas divisorias */
+
+#divisoes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.divisoes {
+    width: 46%;
+}
+
+.divisoes .divisoes-titulo {
+    width: 100%;
+    padding: 2px;
+    position: relative;
+    display: flex;
+    align-content: center;
+    color: #FFFFFF;
+
+}
+
+#nossafrota.divisoes .divisoes-titulo {
+    background-color: #C6B07F;
+}
+
+#destinos.divisoes .divisoes-titulo {
+    background-color: #1BB4E8;
+}
+
+/* imagens das divisoes */
+.divisoes .divisoes-titulo img {
+    height: 40px;
+    object-fit: cover;
+    margin-left: 2px;
+}
+
+#imagem-ilustrativa {
+    width: 100%;
+}
+
+h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.divisoes p {
+    margin-bottom: 20px;
+}
+
+/* mosaico */
+#mosaicos {
+    display: grid;
+    gap: 15px 15px;
+    grid-template-columns: 1fr 1fr;
+}
+
+#espaco {
+    margin: 30px;
+}
+
+footer {
+    background-color: #bebebe;
+    padding: 20px;
+    text-align: left;
+}
+footer a {
+    color: black;
+    text-decoration: none;
+}
